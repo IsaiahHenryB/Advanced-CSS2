@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: monospace;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.twitter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.top-row{
+    display: flex;
+    flex-direction: row;
+}
+.twitter-img{
+    background-image: url(../img/twitter-homepage-image.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    width: 450px;
+}
+.twitter-img img{
+    margin: auto;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+}
+.col1 > *{
+    margin: 10px 0;
+}
+.col1 img{
+    height: 60px;
+    width: 60px;
+    margin: 20px 0px;
+}
+
+.col1 h1{
+    margin: 25px 0px;
+    font-size: 55px;
+}
+
+.col1 h3{
+    margin: 25px 0px;
+    font-size: 30px;
+}
+
+.col1 a{
+    text-align: center;
+    padding: 6px 25px;
+    background-color: #1EA1F1;
+    border: 1px solid #ffffff00;
+    border-radius: 25px;
+    color: #fff;
+    width: 300px;
+}
+
+
+.col1 a:nth-of-type(2){
+    text-align: center;
+    padding: 6px 25px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #1EA1F1;
+    border-radius: 25px;
+    color: #1EA1F1;
+}
+
+.col1 a:nth-of-type(2):hover{
+    text-align: center;
+    padding: 6px 25px;
+    background-color: #1EA1F1;
+    border: 1px solid #ffffff00;
+    border-radius: 25px;
+    color: #fff;
+}
+
+
+.col1 a:hover{
+    text-align: center;
+    padding: 6px 25px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #1EA1F1;
+    border-radius: 25px;
+    color: #1EA1F1;
+}
+
+.bottom-row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.link-row{
+    text-align: center;
+    padding: 10px 5px;
+}
+.link-row a, .link-row p{
+    color: rgb(80, 80, 80);
+} 
